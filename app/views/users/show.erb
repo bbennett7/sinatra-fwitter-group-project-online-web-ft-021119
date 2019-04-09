@@ -1,0 +1,7 @@
+<h6>Your Tweets</h6>
+
+
+<%@user.tweets.each do |tweet|%>
+  <%="#{tweet[:content]}"%>
+  <br>
+<%end%>
